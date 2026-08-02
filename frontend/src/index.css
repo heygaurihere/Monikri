@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #FAF7F2;
+  --color-primary: #C9A96A;
+  --color-text: #2B2B2B;
+  --color-secondary: #6E6259;
+
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Poppins", sans-serif;
+}
