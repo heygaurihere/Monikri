@@ -5,8 +5,8 @@ import productData from "../constants/productData";
 import { WHATSAPP_NUMBER } from "../constants/config";
 // import useWishlist from "../hooks/useWishlist";
 // import useCart from "../hooks/useCart";
-import useWishlist from "../context/WishlistContext";
-import useCart from "../context/CartContext";
+import useWishlist from "../context/WishlistContext.jsx";
+import useCart from "../context/CartContext.jsx";
 
 function ProductDetail() {
   const { id } = useParams();

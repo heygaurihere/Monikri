@@ -4,8 +4,8 @@ import { FiSearch, FiHeart, FiShoppingBag, FiMenu, FiX } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa";
 // import useWishlist from "../hooks/useWishlist";
 // import useCart from "../hooks/useCart";
-import useWishlist from "../context/WishlistContext";
-import useCart from "../context/CartContext";
+import useWishlist from "../context/WishlistContext.jsx";
+import useCart from "../context/CartContext.jsx";
 import SearchModal from "./SearchModal";
 
 function Navbar() {

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 //import useWishlist from "../hooks/useWishlist";
-import useWishlist from "../context/WishlistContext";
+import useWishlist from "../context/WishlistContext.jsx";
 function Wishlist() {
   const { wishlist, toggleWishlist } = useWishlist();
 

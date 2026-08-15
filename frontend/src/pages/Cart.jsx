@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 //import useCart from "../hooks/useCart";
 import { WHATSAPP_NUMBER } from "../constants/config";
-import useCart from "../context/CartContext";
+import useCart from "../context/CartContext.jsx";
 function Cart() {
   const { cart, removeFromCart, updateQty, subtotal } = useCart();
 
